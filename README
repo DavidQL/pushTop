@@ -1,0 +1,7 @@
+When we fiddle with z-index, we're usually just trying to push an element to the top of the stack. The hard part is remembering what the highest z-index is on the page. pushTop() basically makes available a z-index:top; property. 
+
+Use it like this:
+
+$('div.hide_yo_wife').pushTop();
+
+That will give 'div.hide_yo_wife' the highest z-index of any element on the page.
